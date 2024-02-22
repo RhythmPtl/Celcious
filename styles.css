@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.weather-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.location {
+    margin-bottom: 20px;
+}
+
+#location-input {
+    padding: 8px;
+    width: 200px;
+}
+
+#search-btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.current-weather, .forecast {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.forecast div {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.forecast div:last-child {
+    border-bottom: none;
+}
